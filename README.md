@@ -53,7 +53,7 @@ April 2020
 ## Other Projects
 
 
-# CertCentral Dashboard
+# CertCentral Dashboard (WIP)
 Prior to the client certificate app above this was my main project. It's a full UI for order management. I was pretty close to being done but wasn't really happy with how threading was handled. The app could hang with weird behavior. I started to see the effects of how Python handles memory allocation as well. The concept is based off of tab creation for each order you need to manage, which is cool but Python doesn't release the memory used to create the tabs when they are closed. 
 
 Error handling or at least good error handling is tough to get right. There is basically none and the task seems huge. This spawned the client app project above so I could implement it as I go and on a smaller scale. 
