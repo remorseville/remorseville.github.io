@@ -47,4 +47,31 @@ Be smart and safe with the management of your certificates and keys. I am not li
 Developed by: Ben Morse (morsewb@gmail.com)
 April 2020
 
+## Other Projects
+
+
+### CertCentral Dashboard
+Prior to the client certificate app above this was my main project. It's a full UI for order management. I was pretty close to being done but wasn't really happy with how threading was handled. The app could hang with weird behavior. I started to see the effects of how Python handles memory allocation as well. The concept is based off of tab creation for each order you need to manage, which is cool but Python doesn't release the memory used to create the tabs when they are closed. 
+
+Error handling or at least good error handling is tough to get right. There is basically none and the task seems huge. This spawned the client app project above so I could implement it as I go and on a smaller scale. 
+
+![enter image description here](https://github.com/remorseville/remorseville.github.io/blob/master/pics/dash.png?raw=true)
+
+![enter image description here](https://github.com/remorseville/remorseville.github.io/blob/master/pics/dash2.png?raw=true)
+
+### Command Line Utility
+In my adventures in Python and DigiCert's API I finally attempted to make a usable class from all of my previous scripts. This command line utility is one of the side projects that was spawned from it.
+
+There's little error handling but it has some cool features like revoking by order ID or cert ID. You could also add notes per certificate. Once I had a grip on creating a UI with PyQT5 this work led to the app shown above. 
+
+![enter image description here](https://github.com/remorseville/remorseville.github.io/blob/master/pics/cmd_line.png?raw=true)
+#### Download:
+https://drive.google.com/open?id=19y9vGFbShyxb3ePz4218aFdPHGmUEyX-
+
+#### Disclaimer:
+
+The Software Is Provided “as Is”, Without Warranty Of Any Kind, Express Or Implied, Including But Not Limited To The Warranties Of Merchantability, Fitness For A Particular Purpose, Title And Non-infringement. In No Event Shall The Copyright Holders Or Anyone Distributing The Software Be Liable For Any Damages Or Other Liability, Whether In Contract, Tort Or Otherwise, Arising From, Out Of Or In Connection With The Software Or The Use Or Other Dealings In The Software.
+
+
+Developed by: Ben Morse ([morsewb@gmail.com](mailto:morsewb@gmail.com))
 
