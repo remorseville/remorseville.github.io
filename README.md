@@ -43,15 +43,17 @@ Lastly, there most likely will be a crash somewhere as I continue to work on the
 Be smart and safe with the management of your certificates and keys. I am not liable and take no responsibility for any usage of this application and it's key generation. It comes with no warranty or guarantee whatsoever and most likely no support ;)
 
 ### Download: 
-https://drive.google.com/open?id=1KTZuXVRAerK4wQUuXMy5msRtD3oJyUab
+Windows App: https://drive.google.com/open?id=1KTZuXVRAerK4wQUuXMy5msRtD3oJyUab
 
 Developed by: Ben Morse (morsewb@gmail.com)
 April 2020
 
-# Other Projects
 
 
-## CertCentral Dashboard
+## Other Projects
+
+
+# CertCentral Dashboard
 Prior to the client certificate app above this was my main project. It's a full UI for order management. I was pretty close to being done but wasn't really happy with how threading was handled. The app could hang with weird behavior. I started to see the effects of how Python handles memory allocation as well. The concept is based off of tab creation for each order you need to manage, which is cool but Python doesn't release the memory used to create the tabs when they are closed. 
 
 Error handling or at least good error handling is tough to get right. There is basically none and the task seems huge. This spawned the client app project above so I could implement it as I go and on a smaller scale. 
@@ -68,7 +70,7 @@ There's little error handling but it has some cool features like revoking by ord
 ![enter image description here](https://i.ibb.co/zrLjk5q/cmd-line.jpg)
 
 #### Download:
-https://drive.google.com/open?id=19y9vGFbShyxb3ePz4218aFdPHGmUEyX-
+Windows Command Line Executable: https://drive.google.com/open?id=19y9vGFbShyxb3ePz4218aFdPHGmUEyX-
 
 #### Disclaimer:
 
