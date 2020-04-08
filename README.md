@@ -1,5 +1,5 @@
 
-## DigiCert Client Certificate Manager
+# DigiCert Client Certificate Manager
 
 ### Description:
 A Python app with DigiCert's API for ordering DigiCert's Premium, Authentication Plus and Signature Plus Client Certificates. The CSR and Key generation are handled automatically using PyOpenSSL with the goal of creating the pfx (PKCS12) format. Upon a successful order the following directory and files are generated. 
@@ -48,10 +48,10 @@ https://drive.google.com/open?id=1KTZuXVRAerK4wQUuXMy5msRtD3oJyUab
 Developed by: Ben Morse (morsewb@gmail.com)
 April 2020
 
-## Other Projects
+# Other Projects
 
 
-### CertCentral Dashboard
+## CertCentral Dashboard
 Prior to the client certificate app above this was my main project. It's a full UI for order management. I was pretty close to being done but wasn't really happy with how threading was handled. The app could hang with weird behavior. I started to see the effects of how Python handles memory allocation as well. The concept is based off of tab creation for each order you need to manage, which is cool but Python doesn't release the memory used to create the tabs when they are closed. 
 
 Error handling or at least good error handling is tough to get right. There is basically none and the task seems huge. This spawned the client app project above so I could implement it as I go and on a smaller scale. 
@@ -60,7 +60,7 @@ Error handling or at least good error handling is tough to get right. There is b
 
 ![enter image description here](https://i.ibb.co/J503bhd/dash2.jpg)
 
-### Command Line Utility
+## Command Line Utility
 In my adventures in Python and DigiCert's API I finally attempted to make a usable class from all of my previous scripts. This command line utility is one of the side projects that was spawned from it.
 
 There's little error handling but it has some cool features like revoking by order ID or cert ID. You could also add notes per certificate. Once I had a grip on creating a UI with PyQT5 this work led to the app shown above. 
