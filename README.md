@@ -69,32 +69,7 @@ There's little error handling but it has some cool features like revoking by ord
 
 ![enter image description here](https://i.ibb.co/zrLjk5q/cmd-line.jpg)
 
-    usage: dcm [-h] [--search <CommonName>] [--full-details <OrderID>]
-           [--details <OrderID>] [--renew <OrderID>] [--reissue <OrderID>]
-           [--revoke <CertificateID>] [--revoke-all <OrderID>]
-           [--get-expiring <Number>] [--all-orders] [--get-domains] [--req]
-           [--app-req <RequestID>] [--view-note <CertificateID>]
-           [--add-note <CertificateID>]
-
-	Command Line Interface for DigiCert's Cert Central Platform
-
-	optional arguments:
-	  -h, --help                   show this help message and exit
-	  --search <CommonName>        Search by Common Name or SANs Fields
-	  --full-details <OrderID>     Get Full Details by Order Number
-	  --details <OrderID>          Get Details by Order Number
-	  --renew <OrderID>            Renew by Order Number - Get PKCS12(PFX)
-	  --reissue <OrderID>          Reissue by Order Number - Get PKCS12(PFX)
-	  --revoke <CertificateID>     Revoke Single Certificate by Certificate ID
-	  --revoke-all <OrderID>       Revoke All Certificates by Order ID
-	  --get-expiring <Number>      List of Orders by Number of Days Until Expired
-	  --all-orders                 Get Details of All Active/Issued Orders
-	  --get-domains                Return List of Active Domains
-	  --req                        View Pending Requests
-	  --app-req <RequestID>        Approve Request by Request ID
-	  --view-note <CertificateID>  View Notes by Certificate ID
-	  --add-note <CertificateID>   Add Notes by Certificate ID
-
+   
 #### Download:
 Windows Command Line Executable: https://drive.google.com/open?id=19y9vGFbShyxb3ePz4218aFdPHGmUEyX-
 
