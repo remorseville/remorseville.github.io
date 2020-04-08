@@ -40,7 +40,7 @@ Key generation/pfx creation is handled by PyOpenSSL ([https://www.pyopenssl.org/
 
 The UI Theme is called Qtmodern and is awesome. Check it out here. [https://github.com/gmarull/qtmodern](https://github.com/gmarull/qtmodern)
 
-Lastly, coding is hard. There most likely will be a crash somewhere as I continue to work on the project. Just remember if an order was placed and is not needed, cancel it in your DigiCert account within the first 30 days for a full refund. If anything else screws up in the actual ordering process, same applies.
+Lastly, there most likely will be a crash somewhere as I continue to work on the project. Just remember if an order was placed and is not needed, cancel it in your DigiCert account within the first 30 days for a full refund. If anything else screws up in the actual ordering process, same applies.
 #### Disclaimer:
 Be smart and safe with the management of your certificates and keys. I am not liable and take no responsibility for any usage of this application and it's key generation. It comes with no warranty or guarantee whatsoever and most likely no support ;)
 
