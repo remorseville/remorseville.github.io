@@ -55,16 +55,17 @@ Prior to the client certificate app above this was my main project. It's a full 
 
 Error handling or at least good error handling is tough to get right. There is basically none and the task seems huge. This spawned the client app project above so I could implement it as I go and on a smaller scale. 
 
-![enter image description here](https://github.com/remorseville/remorseville.github.io/blob/master/pics/dash.png?raw=true)
+![enter image description here](https://i.ibb.co/5xX23Xv/dash.jpg)
 
-![enter image description here](https://github.com/remorseville/remorseville.github.io/blob/master/pics/dash2.png?raw=true)
+![enter image description here](https://i.ibb.co/J503bhd/dash2.jpg)
 
 ### Command Line Utility
 In my adventures in Python and DigiCert's API I finally attempted to make a usable class from all of my previous scripts. This command line utility is one of the side projects that was spawned from it.
 
 There's little error handling but it has some cool features like revoking by order ID or cert ID. You could also add notes per certificate. Once I had a grip on creating a UI with PyQT5 this work led to the app shown above. 
 
-![enter image description here](https://github.com/remorseville/remorseville.github.io/blob/master/pics/cmd_line.png?raw=true)
+![enter image description here](https://i.ibb.co/zrLjk5q/cmd-line.jpg)
+
 #### Download:
 https://drive.google.com/open?id=19y9vGFbShyxb3ePz4218aFdPHGmUEyX-
 
