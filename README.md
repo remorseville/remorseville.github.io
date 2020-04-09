@@ -2,7 +2,7 @@
 # DigiCert Client Certificate Manager
 
 ### Description:
-A Python app with DigiCert's API for ordering DigiCert's Premium, Authentication Plus and Signature Plus Client Certificates. The CSR and Key generation are handled automatically using PyOpenSSL with the goal of creating the pfx (PKCS12) format. Upon a successful order the following directory and files are generated. 
+A Windows Python app with DigiCert's API for ordering DigiCert's Premium, Authentication Plus and Signature Plus Client Certificates. The CSR and Key generation are handled automatically using PyOpenSSL with the goal of creating the pfx (PKCS12) format. Upon a successful order the following directory and files are generated. 
 
     /Order_number_ID_number/order_number.pfx
     /Order_number_ID_number/certs.zip
