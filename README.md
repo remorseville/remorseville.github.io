@@ -1,6 +1,8 @@
 <h1 id="digicert-script-examples---october-2020">DigiCert Script Examples - October 2020</h1>
+<p>Use case examples of automation with DigiCert’s API</p>
 <ul>
 <li><a href="https://github.com/remorseville/digicert_scripts">Automating User Access</a></li>
+<li><a href="https://github.com/remorseville/digicert_mutli_year_script/blob/main/README.md">Multi Year Certificate Management / Export CSV</a></li>
 </ul>
 <h1 id="april-2020">April 2020</h1>
 <p>Going a different route I’ve decided to see what was possible using Flask to build my app. (<a href="https://flask.palletsprojects.com/en/1.1.x/">https://flask.palletsprojects.com/en/1.1.x/</a>). I’d like the most modern looking UI possible and Flask ties in HTML, jQuery and JavaScript. The UI options basically open up to to anything web development has to offer. It’s a huge difference.</p>
