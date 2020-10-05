@@ -1,5 +1,5 @@
 <h1 id="digicert-script-examples---october-2020">DigiCert Script Examples - October 2020</h1>
-<p>Use case examples of automation with DigiCert’s API</p>
+<p>Use case examples in Python with DigiCert’s API</p>
 <ul>
 <li><a href="https://github.com/remorseville/digicert_scripts">Automating User Access</a></li>
 <li><a href="https://github.com/remorseville/digicert_mutli_year_script/blob/main/README.md">Multi Year Certificate Management / Export CSV</a></li>
